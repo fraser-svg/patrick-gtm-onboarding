@@ -4,78 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Patrick GTM Content Onboarding</title>
-  <meta name="description" content="Onboarding form for Patrick's GTM content and lead generation operator.">
+  <meta name="description" content="Short onboarding form for Patrick's GTM content and lead generation operator.">
   <style>
-    :root {
-      --ink: #181512;
-      --muted: #675f57;
-      --paper: #f7f1e8;
-      --card: #fff9f0;
-      --line: #d9cabb;
-      --accent: #8a3d28;
-      --accent-2: #21594d;
-      --field: #fffdf8;
-      --danger: #79312a;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      background: radial-gradient(circle at top left, #fff7e6 0, var(--paper) 42%, #efe4d5 100%);
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.55;
-    }
-    .wrap { max-width: 980px; margin: 0 auto; padding: 32px 18px 64px; }
-    header {
-      border: 1px solid var(--line);
-      background: rgba(255, 249, 240, 0.88);
-      padding: 30px;
-      border-radius: 24px;
-      box-shadow: 0 20px 55px rgba(51, 37, 24, 0.10);
-    }
-    .eyebrow { color: var(--accent); font-size: 13px; text-transform: uppercase; letter-spacing: .12em; font-weight: 800; }
-    h1 { font-size: clamp(34px, 6vw, 64px); line-height: .96; letter-spacing: -0.06em; margin: 12px 0 18px; max-width: 780px; }
-    .lead { font-size: 18px; max-width: 760px; color: var(--muted); margin: 0; }
-    .notice { margin-top: 20px; padding: 14px 16px; border-radius: 14px; background: #efe2d3; border: 1px solid var(--line); color: #3b3027; }
-    .grid { display: grid; grid-template-columns: 1fr; gap: 18px; margin-top: 22px; }
-    section { background: rgba(255, 249, 240, .92); border: 1px solid var(--line); border-radius: 22px; padding: 24px; }
-    h2 { margin: 0 0 6px; font-size: 24px; letter-spacing: -0.03em; }
-    .hint { margin: 0 0 18px; color: var(--muted); font-size: 14px; }
-    label { display: block; font-weight: 760; margin: 16px 0 7px; }
-    .help { display: block; font-weight: 450; color: var(--muted); font-size: 13px; margin-top: 2px; }
-    input, textarea, select {
-      width: 100%;
-      border: 1px solid #cdbdae;
-      border-radius: 12px;
-      padding: 12px 13px;
-      background: var(--field);
-      color: var(--ink);
-      font: inherit;
-      outline: none;
-    }
-    textarea { min-height: 110px; resize: vertical; }
-    input:focus, textarea:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(138, 61, 40, .14); }
-    .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-    .checks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 16px; margin-top: 8px; }
-    .checks label { display: flex; gap: 8px; align-items: flex-start; margin: 0; font-weight: 520; }
-    .checks input { width: auto; margin-top: 5px; }
-    .required { color: var(--danger); }
-    .submit-card { position: sticky; bottom: 0; margin-top: 20px; padding: 18px; border: 1px solid var(--line); background: rgba(247, 241, 232, .94); backdrop-filter: blur(8px); border-radius: 20px; display: flex; gap: 14px; align-items: center; justify-content: space-between; }
-    button { border: 0; border-radius: 999px; padding: 14px 22px; background: var(--accent); color: #fff8ef; font-weight: 820; cursor: pointer; min-height: 48px; }
-    button:hover { background: #74331f; }
-    .small { color: var(--muted); font-size: 13px; margin: 0; }
-    footer { color: var(--muted); font-size: 13px; margin-top: 18px; text-align: center; }
-    @media (max-width: 720px) { header, section { padding: 20px; border-radius: 18px; } .two, .checks { grid-template-columns: 1fr; } .submit-card { position: static; flex-direction: column; align-items: stretch; } button { width: 100%; } }
+    :root { --ink:#181512; --muted:#675f57; --paper:#f7f1e8; --card:#fff9f0; --line:#d9cabb; --accent:#8a3d28; --field:#fffdf8; --danger:#79312a; }
+    *{box-sizing:border-box} body{margin:0;color:var(--ink);background:radial-gradient(circle at top left,#fff7e6 0,var(--paper) 44%,#efe4d5 100%);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}.wrap{max-width:820px;margin:0 auto;padding:30px 18px 56px}header,section{background:rgba(255,249,240,.92);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 18px 50px rgba(51,37,24,.08)}header{margin-bottom:16px}.eyebrow{color:var(--accent);font-size:13px;text-transform:uppercase;letter-spacing:.12em;font-weight:850}h1{font-size:clamp(34px,6vw,56px);line-height:.98;letter-spacing:-.055em;margin:10px 0 14px}.lead{font-size:18px;color:var(--muted);margin:0;max-width:720px}.notice{margin-top:16px;padding:13px 15px;border-radius:14px;background:#efe2d3;border:1px solid var(--line);color:#3b3027}.grid{display:grid;gap:16px}h2{margin:0 0 5px;font-size:23px;letter-spacing:-.03em}.hint{margin:0 0 15px;color:var(--muted);font-size:14px}label{display:block;font-weight:760;margin:14px 0 7px}.help{display:block;font-weight:450;color:var(--muted);font-size:13px;margin-top:2px}input,textarea,select{width:100%;border:1px solid #cdbdae;border-radius:12px;padding:12px 13px;background:var(--field);color:var(--ink);font:inherit;outline:none}textarea{min-height:96px;resize:vertical}input:focus,textarea:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(138,61,40,.14)}.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.required{color:var(--danger)}.submit-card{margin-top:18px;padding:18px;border:1px solid var(--line);background:rgba(247,241,232,.95);border-radius:20px;display:flex;gap:14px;align-items:center;justify-content:space-between}.small{color:var(--muted);font-size:13px;margin:0}button{border:0;border-radius:999px;padding:14px 22px;background:var(--accent);color:#fff8ef;font-weight:850;cursor:pointer;min-height:48px}button:hover{background:#74331f}footer{color:var(--muted);font-size:13px;margin-top:18px;text-align:center}@media(max-width:720px){header,section{padding:20px;border-radius:18px}.two{grid-template-columns:1fr}.submit-card{flex-direction:column;align-items:stretch}button{width:100%}}
   </style>
 </head>
 <body>
   <main class="wrap">
     <header>
       <div class="eyebrow">Patrick onboarding</div>
-      <h1>Give the content operator the truth it needs before it writes for you.</h1>
-      <p class="lead">This form captures your offers, buyers, voice, proof, boundaries, gold-star accounts, and lead-capture path. Specific examples are better than polished answers. If something is confidential, mark it clearly.</p>
-      <div class="notice"><strong>Time:</strong> 25 to 45 minutes. <strong>Output:</strong> enough context to build safe, specific X content designed for qualified GTM leads, not vanity reach.</div>
+      <h1>Quick context for Patrick’s GTM content operator.</h1>
+      <p class="lead">A shorter form to capture the minimum useful context: offer, buyer, voice, proof, boundaries, and conversion path.</p>
+      <div class="notice"><strong>Time:</strong> 8 to 12 minutes. <strong>Best answers:</strong> concrete, messy, specific. Mark confidential details clearly.</div>
     </header>
 
     <form action="https://formsubmit.co/fraserklw@gmail.com" method="POST">
@@ -87,192 +28,71 @@
 
       <div class="grid">
         <section>
-          <h2>1. Basic identity</h2>
-          <p class="hint">The public-facing basics.</p>
+          <h2>1. Basics</h2>
+          <p class="hint">Who are we writing for and as?</p>
           <div class="two">
-            <label>Full name <span class="required">*</span><input name="Full name" required></label>
-            <label>Preferred public name on X <span class="required">*</span><input name="Preferred public name on X" required></label>
+            <label>Your name <span class="required">*</span><input name="Name" required></label>
+            <label>Email <span class="required">*</span><input type="email" name="email" required></label>
           </div>
-          <label>Current role/title <span class="required">*</span><span class="help">Example: Fractional CMO, GTM Advisor, Founder-Led Growth Consultant.</span><input name="Current role/title" required></label>
-          <label>Company / agency / personal brand name<input name="Company or brand name"></label>
-          <label>Website / portfolio / LinkedIn / X profile URLs<textarea name="Profile URLs"></textarea></label>
-          <label>One-paragraph bio in your own words <span class="required">*</span><textarea name="Bio" required></textarea></label>
-          <label>If someone asked “what do you do?”, how would you answer in one sentence? <span class="required">*</span><textarea name="One sentence answer" required></textarea></label>
+          <label>Website / LinkedIn / X links<input name="Links"></label>
+          <label>In one sentence, what do you do? <span class="required">*</span><textarea name="What you do" required></textarea></label>
         </section>
 
         <section>
-          <h2>2. Business goal</h2>
-          <p class="hint">What the content is commercially meant to do.</p>
-          <label>Primary commercial goal of posting on X <span class="required">*</span><textarea name="Primary commercial goal" required placeholder="Inbound consulting leads, fractional CMO retainers, strategy calls, newsletter subscribers, lead magnet downloads, partnerships, authority, etc."></textarea></label>
-          <label>What would make this a success over the next 90 days? <span class="required">*</span><textarea name="90 day success" required></textarea></label>
-          <label>What would make it a success over 12 months?<textarea name="12 month success"></textarea></label>
-          <label>Which metric matters most? <span class="required">*</span><select name="Metric that matters most" required><option value="">Choose one</option><option>Qualified calls booked</option><option>Qualified DMs/replies</option><option>Newsletter/email subscribers</option><option>Retainer revenue</option><option>Consulting project revenue</option><option>X audience growth</option><option>Other</option></select></label>
-          <label>What types of attention are NOT valuable to you? <span class="required">*</span><textarea name="Attention not valuable" required></textarea></label>
+          <h2>2. Offer</h2>
+          <p class="hint">What should the content create demand for?</p>
+          <label>What do you sell right now? <span class="required">*</span><span class="help">Offer name, who buys it, rough price/model if you’re comfortable sharing.</span><textarea name="Current offer" required></textarea></label>
+          <label>What problem does this solve for clients? <span class="required">*</span><textarea name="Problem solved" required></textarea></label>
+          <label>What proof can we safely use? <span class="required">*</span><span class="help">Results, examples, case studies, anonymised wins, client types. Say what is confidential.</span><textarea name="Safe proof" required></textarea></label>
         </section>
 
         <section>
-          <h2>3. Offers</h2>
-          <p class="hint">The content must map to what you actually sell.</p>
-          <label>List your current offers <span class="required">*</span><textarea name="Current offers" required></textarea></label>
-          <div class="two">
-            <label>Offer 1 name <span class="required">*</span><input name="Offer 1 name" required></label>
-            <label>Offer 1 CTA <span class="required">*</span><input name="Offer 1 CTA" required placeholder="DM keyword, book call, audit form, email, etc."></label>
-          </div>
-          <label>Offer 1 buyer <span class="required">*</span><textarea name="Offer 1 buyer" required></textarea></label>
-          <label>Offer 1 pain/problem <span class="required">*</span><textarea name="Offer 1 pain" required></textarea></label>
-          <label>Offer 1 promise/outcome <span class="required">*</span><textarea name="Offer 1 promise" required></textarea></label>
-          <label>Offer 1 mechanism <span class="required">*</span><textarea name="Offer 1 mechanism" required></textarea></label>
-          <label>Offer 1 proof <span class="required">*</span><span class="help">Results, examples, case studies, work samples, client types, before/after. Mark confidential details.</span><textarea name="Offer 1 proof" required></textarea></label>
-          <label>Offer 1 price range or commercial model<input name="Offer 1 price or model"></label>
-          <label>Offer 2 details, if applicable<textarea name="Offer 2 details"></textarea></label>
-          <label>Which offer should content primarily support first? <span class="required">*</span><input name="Primary offer to support" required></label>
+          <h2>3. Buyer</h2>
+          <p class="hint">Who should see the post and think “this is for me”?</p>
+          <label>Describe your best-fit client <span class="required">*</span><textarea name="Best-fit client" required></textarea></label>
+          <label>What pains or phrases do buyers actually say? <span class="required">*</span><textarea name="Buyer language" required></textarea></label>
+          <label>Who is a bad-fit client or wrong audience? <span class="required">*</span><textarea name="Bad-fit audience" required></textarea></label>
         </section>
 
         <section>
-          <h2>4. Ideal clients and buyer pain</h2>
-          <p class="hint">Who should recognise themselves in the content?</p>
-          <label>Describe your best-fit client in detail <span class="required">*</span><textarea name="Best-fit client" required></textarea></label>
-          <label>Buyer roles you want to reach <span class="required">*</span><textarea name="Buyer roles" required placeholder="Founder/CEO, CMO, Head of Growth, Head of Sales, RevOps, agency owner, etc."></textarea></label>
-          <label>Company stages / types you want to serve <span class="required">*</span><textarea name="Company stages" required></textarea></label>
-          <label>Industries / niches you are strongest in <span class="required">*</span><textarea name="Strongest industries" required></textarea></label>
-          <label>Industries / niches to avoid<textarea name="Industries to avoid"></textarea></label>
-          <label>Buyer pains you hear most often <span class="required">*</span><span class="help">Use the buyer’s actual language if possible.</span><textarea name="Buyer pains" required></textarea></label>
-          <label>Buying triggers <span class="required">*</span><textarea name="Buying triggers" required></textarea></label>
-          <label>Bad-fit clients <span class="required">*</span><textarea name="Bad-fit clients" required></textarea></label>
-          <label>What does a qualified lead look like? <span class="required">*</span><textarea name="Qualified lead definition" required></textarea></label>
-        </section>
-
-        <section>
-          <h2>5. Methods, frameworks, and proof</h2>
-          <p class="hint">This is where generic content becomes founder-specific.</p>
-          <label>Describe your GTM method/process <span class="required">*</span><textarea name="GTM method" required></textarea></label>
-          <label>Frameworks, models, scorecards, audits, or templates you use<textarea name="Frameworks"></textarea></label>
-          <label>What do you do differently from other GTM consultants / fractional CMOs? <span class="required">*</span><textarea name="Differentiation" required></textarea></label>
-          <label>What proof can be used publicly? <span class="required">*</span><textarea name="Public proof" required></textarea></label>
-          <label>What proof can be used only with approval? <span class="required">*</span><textarea name="Approval-only proof" required></textarea></label>
-          <label>What proof must never be used? <span class="required">*</span><textarea name="Never-use proof" required></textarea></label>
-          <label>Paste 3 to 5 examples of work you are proud of<textarea name="Work examples"></textarea></label>
-        </section>
-
-        <section>
-          <h2>6. Strong opinions and positioning</h2>
-          <p class="hint">The content should demonstrate judgement, not generic marketing advice.</p>
+          <h2>4. Point of view</h2>
+          <p class="hint">The content needs judgement, not generic GTM advice.</p>
           <label>What do you want to be known for? <span class="required">*</span><textarea name="Known for" required></textarea></label>
-          <label>5 to 10 strong beliefs about GTM, marketing, AI, content, outbound, or founder-led sales <span class="required">*</span><textarea name="Strong beliefs" required></textarea></label>
-          <label>What industry habits annoy you? <span class="required">*</span><textarea name="Industry habits that annoy you" required></textarea></label>
-          <label>What do most teams misunderstand about GTM? <span class="required">*</span><textarea name="GTM misunderstandings" required></textarea></label>
-          <label>What do most teams misunderstand about content? <span class="required">*</span><textarea name="Content misunderstandings" required></textarea></label>
-          <label>What do most teams misunderstand about AI in marketing/sales?<textarea name="AI misunderstandings"></textarea></label>
-          <label>What are you willing to be contrarian about? <span class="required">*</span><textarea name="Contrarian positions" required></textarea></label>
-          <label>What positions should we avoid because they are too risky, not true enough, or not your view? <span class="required">*</span><textarea name="Positions to avoid" required></textarea></label>
+          <label>Give 3 to 5 strong opinions about GTM, marketing, AI, content, outbound, or founder-led sales <span class="required">*</span><textarea name="Strong opinions" required></textarea></label>
+          <label>What do most teams misunderstand? <span class="required">*</span><textarea name="Misunderstandings" required></textarea></label>
         </section>
 
         <section>
-          <h2>7. Voice and writing style</h2>
-          <p class="hint">Paste real material. Messy but real beats polished but fake.</p>
-          <label>Paste 3 to 5 examples of your writing that sound like you <span class="required">*</span><textarea name="Writing examples" required></textarea></label>
-          <label>Paste 1 to 3 examples of writing that does NOT sound like you<textarea name="Bad voice examples"></textarea></label>
-          <label>Words/phrases you use naturally<textarea name="Natural phrases"></textarea></label>
-          <label>Words/phrases you hate or never want used <span class="required">*</span><textarea name="Banned phrases" required></textarea></label>
-          <label>Preferred tone <span class="required">*</span><textarea name="Preferred tone" required placeholder="Direct, analytical, dry/funny, sharp, warm, tactical, strategic, founder-to-founder, operator-led, etc."></textarea></label>
-          <label>Tone to avoid <span class="required">*</span><textarea name="Tone to avoid" required></textarea></label>
-          <label>How personal should posts be? <span class="required">*</span><select name="Personal content level" required><option value="">Choose one</option><option>Mostly professional, little personal detail</option><option>Some personal/operator stories if relevant</option><option>Comfortable with personal founder journey</option><option>Not sure</option></select></label>
-          <label>Topics from your personal life that are off-limits <span class="required">*</span><textarea name="Personal off-limits" required></textarea></label>
+          <h2>5. Voice</h2>
+          <p class="hint">Enough to stop the content sounding like AI slop.</p>
+          <label>Paste 1 to 3 examples of writing that sounds like you <span class="required">*</span><textarea name="Voice examples" required></textarea></label>
+          <label>Words, phrases, tones, or styles to avoid <span class="required">*</span><textarea name="Banned voice" required></textarea></label>
         </section>
 
         <section>
-          <h2>8. Content boundaries and risk</h2>
-          <p class="hint">This determines what can be drafted, approved, or blocked.</p>
+          <h2>6. Boundaries</h2>
+          <p class="hint">What needs approval or should never be touched?</p>
           <label>What should never be posted? <span class="required">*</span><textarea name="Never post" required></textarea></label>
-          <label>What requires approval before posting? <span class="required">*</span><textarea name="Approval required topics" required></textarea></label>
-          <label>Sensitive clients/projects/industries <span class="required">*</span><textarea name="Sensitive clients or projects" required></textarea></label>
-          <label>Competitors or people we should avoid naming<textarea name="Avoid naming"></textarea></label>
-          <label>Legal/compliance constraints<textarea name="Legal constraints"></textarea></label>
-          <div class="two">
-            <label>Are anonymized client stories allowed? <span class="required">*</span><select name="Anonymized stories allowed" required><option value="">Choose one</option><option>Yes, if details are changed</option><option>Yes, but approval required</option><option>No</option><option>Not sure</option></select></label>
-            <label>Are public teardowns allowed? <span class="required">*</span><select name="Public teardowns allowed" required><option value="">Choose one</option><option>Yes, public companies/pages only</option><option>Yes, but avoid naming small companies/individuals</option><option>Approval required</option><option>No</option><option>Not sure</option></select></label>
-          </div>
-          <label>How sharp can the account be? <span class="required">*</span><select name="Sharpness level" required><option value="">Choose one</option><option>1 - Very safe</option><option>2 - Mostly safe</option><option>3 - Balanced</option><option>4 - Opinionated</option><option>5 - Strongly opinionated</option></select></label>
+          <label>What requires approval first? <span class="required">*</span><textarea name="Approval required" required></textarea></label>
+          <label>Can anonymised client stories or public teardowns be used? <span class="required">*</span><select name="Stories and teardowns" required><option value="">Choose one</option><option>Yes, if anonymised/safe</option><option>Yes, but approval required</option><option>Public teardowns only</option><option>No</option><option>Not sure</option></select></label>
         </section>
 
         <section>
-          <h2>9. Sources, research, and gold-star accounts</h2>
-          <p class="hint">Who should the operator learn from structurally, without copying?</p>
-          <label>Accounts you admire on X / LinkedIn<textarea name="Admired accounts"></textarea></label>
-          <label>Accounts you dislike or do not want to sound like<textarea name="Disliked accounts"></textarea></label>
-          <label>Competitors or adjacent operators to monitor<textarea name="Competitors to monitor"></textarea></label>
-          <label>Newsletters, blogs, podcasts, communities, or publications to monitor<textarea name="Sources to monitor"></textarea></label>
-          <label>Keywords/topics the operator should monitor<textarea name="Keywords to monitor"></textarea></label>
-          <label>Public companies, tools, funnels, or categories worth tearing down<textarea name="Teardown targets"></textarea></label>
-        </section>
-
-        <section>
-          <h2>10. X strategy and posting preferences</h2>
-          <p class="hint">The operating cadence and acceptable formats.</p>
-          <div class="two">
-            <label>Current X handle<input name="X handle"></label>
-            <label>Current follower count / rough account status<input name="X account status"></label>
-          </div>
-          <label>Existing pinned post, if any<textarea name="Pinned post"></textarea></label>
-          <label>Posting frequency you are comfortable with <span class="required">*</span><select name="Posting frequency" required><option value="">Choose one</option><option>1 to 2 posts/week</option><option>3 to 5 posts/week</option><option>Daily</option><option>Multiple times/day</option><option>Not sure</option></select></label>
-          <label>Are replies/comments allowed as part of the strategy? <span class="required">*</span><select name="Replies allowed" required><option value="">Choose one</option><option>Yes, operator can draft replies</option><option>Yes, but approval required</option><option>No, posts only</option><option>Not sure</option></select></label>
-          <label>Preferred post formats <span class="required">*</span><textarea name="Preferred post formats" required placeholder="Short posts, threads, teardowns, lists, strong opinions, frameworks, screenshots, reply-led distribution, polls, etc."></textarea></label>
-          <label>Formats to avoid<textarea name="Formats to avoid"></textarea></label>
-          <label>Should the operator stay close to your voice or suggest bolder versions? <span class="required">*</span><select name="Experiment boldness" required><option value="">Choose one</option><option>Stay close to my voice</option><option>Include some bolder options for approval</option><option>Be aggressive with experiments</option><option>Not sure</option></select></label>
-        </section>
-
-        <section>
-          <h2>11. Lead capture and conversion path</h2>
-          <p class="hint">Where should qualified attention go?</p>
-          <label>What should interested buyers do after seeing your content? <span class="required">*</span><textarea name="Buyer next step" required placeholder="DM me, reply, book a call, join newsletter, download lead magnet, complete diagnostic, email me, etc."></textarea></label>
-          <div class="two">
-            <label>Booking link<input name="Booking link"></label>
-            <label>Newsletter/email platform<input name="Newsletter platform"></label>
-          </div>
-          <label>CRM or lead tracking system<input name="CRM"></label>
-          <label>Existing lead magnets/resources<textarea name="Existing lead magnets"></textarea></label>
-          <label>Which lead magnet sounds most useful to build first? <span class="required">*</span><select name="First lead magnet" required><option value="">Choose one</option><option>Buyer-Signal Content Audit</option><option>AI-GTM Workflow Debt Scorecard</option><option>Founder-Led GTM Teardown Template</option><option>Content-to-Pipeline Operating System</option><option>AI GTM Readiness Checklist</option><option>Other</option><option>Not sure</option></select></label>
-          <label>What questions should a qualified lead answer before booking a call?<textarea name="Lead qualification questions"></textarea></label>
-          <label>What disqualifies a lead? <span class="required">*</span><textarea name="Lead disqualifiers" required></textarea></label>
-          <label>Do you want CTAs to be direct or soft? <span class="required">*</span><select name="CTA style" required><option value="">Choose one</option><option>Mostly soft: reply/DM if relevant</option><option>Mixed</option><option>Direct: book/download/apply</option><option>Not sure</option></select></label>
-        </section>
-
-        <section>
-          <h2>12. Analytics and learning</h2>
-          <p class="hint">We will optimize for qualified demand, not just impressions.</p>
-          <label>What buyer signals should we optimize for? <span class="required">*</span><textarea name="Buyer signals to optimize" required placeholder="Qualified replies, DMs, profile visits, signups, calls booked, saves, reposts by credible operators, target-buyer comments, etc."></textarea></label>
-          <label>What counts as a qualified DM/reply? <span class="required">*</span><textarea name="Qualified DM or reply" required></textarea></label>
-          <label>How often do you want a performance/learning memo? <span class="required">*</span><select name="Learning memo frequency" required><option value="">Choose one</option><option>Weekly</option><option>Every 2 weeks</option><option>Monthly</option><option>Only when there is a notable signal</option></select></label>
-          <label>Are you comfortable sharing analytics screenshots/exports with the operator? <span class="required">*</span><select name="Analytics sharing" required><option value="">Choose one</option><option>Yes</option><option>Yes, with sensitive info removed</option><option>No</option><option>Not sure</option></select></label>
-        </section>
-
-        <section>
-          <h2>13. Approval workflow</h2>
-          <p class="hint">How decisions should be routed once drafts exist.</p>
-          <label>Who approves posts that need approval? <span class="required">*</span><input name="Approver" required></label>
-          <label>Best approval channel <span class="required">*</span><input name="Approval channel" required placeholder="WhatsApp, Slack, Email, Telegram, Notion/Doc, etc."></label>
-          <label>Expected approval turnaround <span class="required">*</span><select name="Approval turnaround" required><option value="">Choose one</option><option>Same day</option><option>24 hours</option><option>48 hours</option><option>Weekly batch</option><option>Other</option></select></label>
-          <label>Can the operator publish low-risk posts without approval after setup/dry-run? <span class="required">*</span><select name="Auto-post permission" required><option value="">Choose one</option><option>Yes</option><option>Yes, but only after I approve examples</option><option>No, everything needs approval</option><option>Not sure</option></select></label>
-          <label>Emergency pause instruction <span class="required">*</span><textarea name="Emergency pause instruction" required></textarea></label>
-        </section>
-
-        <section>
-          <h2>14. Final context dump</h2>
-          <p class="hint">Anything that did not fit above.</p>
-          <label>Your email <span class="required">*</span><input type="email" name="email" required></label>
-          <label>Anything else the operator should know?<textarea name="Anything else"></textarea></label>
-          <label>Upload/link useful docs, examples, screenshots, decks, audits, proposals, or voice notes<textarea name="Useful links"></textarea></label>
-          <label>If the operator could only remember one thing about how to represent you publicly, what should it be? <span class="required">*</span><textarea name="One thing to remember" required></textarea></label>
+          <h2>7. Content and conversion</h2>
+          <p class="hint">How should attention become a lead?</p>
+          <label>What should interested buyers do next? <span class="required">*</span><span class="help">DM, book call, email, audit form, lead magnet, newsletter, etc.</span><textarea name="Buyer next step" required></textarea></label>
+          <label>Booking link / lead magnet / newsletter / CRM links<input name="Conversion links"></label>
+          <label>Accounts, competitors, or sources worth learning from<textarea name="Accounts and sources"></textarea></label>
+          <label>If the operator remembers only one thing about representing you publicly, what should it be? <span class="required">*</span><textarea name="One thing to remember" required></textarea></label>
         </section>
       </div>
 
       <div class="submit-card">
-        <p class="small"><strong>Before submitting:</strong> mark anything confidential. The response will be emailed to Fraser.</p>
-        <button type="submit">Submit onboarding response</button>
+        <p class="small"><strong>Submit once.</strong> Fraser will use this to build the content strategy and ask follow-ups only where needed.</p>
+        <button type="submit">Submit onboarding</button>
       </div>
     </form>
-
-    <footer>Built for Fraser’s content operator project. No tracking scripts, no cookies.</footer>
+    <footer>No tracking scripts, no cookies.</footer>
   </main>
 </body>
 </html>
